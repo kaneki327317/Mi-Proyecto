@@ -8,14 +8,14 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Mi_Proyecto';
 
-  public banner_src="./assets/casa1.svg";
+  public casa_src="./assets/casa1.svg";
 
   public cambiarbanner(color:string){
     if(color=="blanco"){
-      this.banner_src="./assets/casa1.svg";
+      this.casa_src="./assets/casa1.svg";
     }
     else if(color=="negro"){
-      this.banner_src="./assets/casa2.svg";
+      this.casa_src="./assets/casa2.svg";
     }
   }
 
